@@ -1,0 +1,31 @@
+.site-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: #F0F0C9;
+  padding: 1rem;
+}
+
+.site-header > a {
+  justify-self: start;
+}
+
+.site-header nav {
+  justify-self: end;
+  background-color: #fcfcdb;
+  padding: .5rem 1rem;
+}
+
+.site-header nav ul {
+  display: grid;
+  grid-auto-flow: column;
+  gap: .75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-header a {
+  color: #087F8C;
+  text-decoration: none;
+}
